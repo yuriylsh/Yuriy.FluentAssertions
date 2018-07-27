@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yuriy.FluentAssertions", "Yuriy.FluentAssertions\Yuriy.FluentAssertions.csproj", "{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AFDE685-5487-492B-A04A-59088DF92857}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Authors>Yuriy Lyeshchenko</Authors>
+    <Company>Yuriy Lyeshchenko</Company>
+    <Description>Extension methods to simplify writing unit tests using FluentAssertions</Description>
+    <Copyright>Yuriy Lyeshchenko © 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/yuriylsh/Yuriy.FluentAssertions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/yuriylsh/Yuriy.FluentAssertions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yuriylsh/Yuriy.FluentAssertions</RepositoryUrl>
+    <PackageTags>FluetAssertions</PackageTags>
+    <PackageReleaseNotes>Initial release with extension methods to allow using costom EqualityComparer when assertin collections equality.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.4.1" />
+  </ItemGroup>
+
+</Project>
