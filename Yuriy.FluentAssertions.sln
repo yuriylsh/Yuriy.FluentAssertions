@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yuriy.FluentAssertions", "Yuriy.FluentAssertions\Yuriy.FluentAssertions.csproj", "{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yuriy.FluentAssertions", "Yuriy.FluentAssertions\Yuriy.FluentAssertions.csproj", "{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yuriy.FluentAssertions.Tests", "Yuriy.FluentAssertions.Tests\Yuriy.FluentAssertions.Tests.csproj", "{A34EB717-5C14-44B2-94D0-F665207682E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4A652F-54C0-44AC-8A5C-ED7692024EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34EB717-5C14-44B2-94D0-F665207682E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34EB717-5C14-44B2-94D0-F665207682E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34EB717-5C14-44B2-94D0-F665207682E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34EB717-5C14-44B2-94D0-F665207682E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

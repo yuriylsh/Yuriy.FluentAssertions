@@ -66,8 +66,8 @@ namespace FluentAssertions
                     {
                         return (IEqualityComparer<T>)comparer;
                     }
-                    throw new Exception($"IEqualityComparer<{typeof(T).Name}> was not registered. Use {nameof(EqualityExtentions)}.{nameof(RegisterComparer)} method to register a comparer first or use {nameof(EqualityExtentions)}.EqualWithComparer that accepts a comparer as a parameter.");
                 }
+                throw new Exception($"IEqualityComparer<{typeof(T).Name}> was not registered. Use {nameof(EqualityExtentions)}.{nameof(RegisterComparer)} method to register a comparer first or use {nameof(EqualityExtentions)}.EqualWithComparer that accepts a comparer as a parameter.");
             }
         }
     }
